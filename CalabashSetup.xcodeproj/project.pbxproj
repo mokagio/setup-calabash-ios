@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F22CE761A74F8510029EB97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F22CE751A74F8510029EB97 /* AppDelegate.swift */; };
+		3F22CE781A74F8510029EB97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F22CE771A74F8510029EB97 /* ViewController.swift */; };
+		3F22CE7B1A74F8510029EB97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F22CE791A74F8510029EB97 /* Main.storyboard */; };
+		3F22CE7D1A74F8510029EB97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F22CE7C1A74F8510029EB97 /* Images.xcassets */; };
+		3F22CE801A74F8510029EB97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F22CE7E1A74F8510029EB97 /* LaunchScreen.xib */; };
+		3F22CE8C1A74F8510029EB97 /* CalabashSetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F22CE8B1A74F8510029EB97 /* CalabashSetupTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F22CE861A74F8510029EB97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F22CE681A74F8510029EB97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F22CE6F1A74F8510029EB97;
+			remoteInfo = CalabashSetup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F22CE701A74F8510029EB97 /* CalabashSetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalabashSetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F22CE741A74F8510029EB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F22CE751A74F8510029EB97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F22CE771A74F8510029EB97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F22CE7A1A74F8510029EB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F22CE7C1A74F8510029EB97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F22CE7F1A74F8510029EB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3F22CE851A74F8510029EB97 /* CalabashSetupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalabashSetupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F22CE8A1A74F8510029EB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F22CE8B1A74F8510029EB97 /* CalabashSetupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalabashSetupTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F22CE6D1A74F8510029EB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F22CE821A74F8510029EB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F22CE671A74F8510029EB97 = {
+			isa = PBXGroup;
+			children = (
+				3F22CE721A74F8510029EB97 /* CalabashSetup */,
+				3F22CE881A74F8510029EB97 /* CalabashSetupTests */,
+				3F22CE711A74F8510029EB97 /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		3F22CE711A74F8510029EB97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F22CE701A74F8510029EB97 /* CalabashSetup.app */,
+				3F22CE851A74F8510029EB97 /* CalabashSetupTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F22CE721A74F8510029EB97 /* CalabashSetup */ = {
+			isa = PBXGroup;
+			children = (
+				3F22CE751A74F8510029EB97 /* AppDelegate.swift */,
+				3F22CE771A74F8510029EB97 /* ViewController.swift */,
+				3F22CE791A74F8510029EB97 /* Main.storyboard */,
+				3F22CE7C1A74F8510029EB97 /* Images.xcassets */,
+				3F22CE7E1A74F8510029EB97 /* LaunchScreen.xib */,
+				3F22CE731A74F8510029EB97 /* Supporting Files */,
+			);
+			path = CalabashSetup;
+			sourceTree = "<group>";
+		};
+		3F22CE731A74F8510029EB97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F22CE741A74F8510029EB97 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F22CE881A74F8510029EB97 /* CalabashSetupTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F22CE8B1A74F8510029EB97 /* CalabashSetupTests.swift */,
+				3F22CE891A74F8510029EB97 /* Supporting Files */,
+			);
+			path = CalabashSetupTests;
+			sourceTree = "<group>";
+		};
+		3F22CE891A74F8510029EB97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F22CE8A1A74F8510029EB97 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F22CE6F1A74F8510029EB97 /* CalabashSetup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F22CE8F1A74F8510029EB97 /* Build configuration list for PBXNativeTarget "CalabashSetup" */;
+			buildPhases = (
+				3F22CE6C1A74F8510029EB97 /* Sources */,
+				3F22CE6D1A74F8510029EB97 /* Frameworks */,
+				3F22CE6E1A74F8510029EB97 /* Resources */,
+				44AEB751305490DA82D0B0E5 /* Warn for TODO and FIXME comments */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalabashSetup;
+			productName = CalabashSetup;
+			productReference = 3F22CE701A74F8510029EB97 /* CalabashSetup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F22CE841A74F8510029EB97 /* CalabashSetupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F22CE921A74F8510029EB97 /* Build configuration list for PBXNativeTarget "CalabashSetupTests" */;
+			buildPhases = (
+				3F22CE811A74F8510029EB97 /* Sources */,
+				3F22CE821A74F8510029EB97 /* Frameworks */,
+				3F22CE831A74F8510029EB97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F22CE871A74F8510029EB97 /* PBXTargetDependency */,
+			);
+			name = CalabashSetupTests;
+			productName = CalabashSetupTests;
+			productReference = 3F22CE851A74F8510029EB97 /* CalabashSetupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F22CE681A74F8510029EB97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = mokagio;
+				TargetAttributes = {
+					3F22CE6F1A74F8510029EB97 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					3F22CE841A74F8510029EB97 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3F22CE6F1A74F8510029EB97;
+					};
+				};
+			};
+			buildConfigurationList = 3F22CE6B1A74F8510029EB97 /* Build configuration list for PBXProject "CalabashSetup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F22CE671A74F8510029EB97;
+			productRefGroup = 3F22CE711A74F8510029EB97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F22CE6F1A74F8510029EB97 /* CalabashSetup */,
+				3F22CE841A74F8510029EB97 /* CalabashSetupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F22CE6E1A74F8510029EB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F22CE7B1A74F8510029EB97 /* Main.storyboard in Resources */,
+				3F22CE801A74F8510029EB97 /* LaunchScreen.xib in Resources */,
+				3F22CE7D1A74F8510029EB97 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F22CE831A74F8510029EB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44AEB751305490DA82D0B0E5 /* Warn for TODO and FIXME comments */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Warn for TODO and FIXME comments";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F22CE6C1A74F8510029EB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F22CE781A74F8510029EB97 /* ViewController.swift in Sources */,
+				3F22CE761A74F8510029EB97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F22CE811A74F8510029EB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F22CE8C1A74F8510029EB97 /* CalabashSetupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F22CE871A74F8510029EB97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F22CE6F1A74F8510029EB97 /* CalabashSetup */;
+			targetProxy = 3F22CE861A74F8510029EB97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F22CE791A74F8510029EB97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F22CE7A1A74F8510029EB97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F22CE7E1A74F8510029EB97 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F22CE7F1A74F8510029EB97 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F22CE8D1A74F8510029EB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F22CE8E1A74F8510029EB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F22CE901A74F8510029EB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalabashSetup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F22CE911A74F8510029EB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = CalabashSetup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F22CE931A74F8510029EB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CalabashSetupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalabashSetup.app/CalabashSetup";
+			};
+			name = Debug;
+		};
+		3F22CE941A74F8510029EB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CalabashSetupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalabashSetup.app/CalabashSetup";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F22CE6B1A74F8510029EB97 /* Build configuration list for PBXProject "CalabashSetup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F22CE8D1A74F8510029EB97 /* Debug */,
+				3F22CE8E1A74F8510029EB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F22CE8F1A74F8510029EB97 /* Build configuration list for PBXNativeTarget "CalabashSetup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F22CE901A74F8510029EB97 /* Debug */,
+				3F22CE911A74F8510029EB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F22CE921A74F8510029EB97 /* Build configuration list for PBXNativeTarget "CalabashSetupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F22CE931A74F8510029EB97 /* Debug */,
+				3F22CE941A74F8510029EB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F22CE681A74F8510029EB97 /* Project object */;
+}
