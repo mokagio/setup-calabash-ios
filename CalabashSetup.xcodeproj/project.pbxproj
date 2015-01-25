@@ -13,6 +13,7 @@
 		3F22CE7D1A74F8510029EB97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F22CE7C1A74F8510029EB97 /* Images.xcassets */; };
 		3F22CE801A74F8510029EB97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F22CE7E1A74F8510029EB97 /* LaunchScreen.xib */; };
 		3F22CE8C1A74F8510029EB97 /* CalabashSetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F22CE8B1A74F8510029EB97 /* CalabashSetupTests.swift */; };
+		DBA75C77D8288C096661DF1D /* libPods-CalabashSetup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55ECC2E96393CC7F26AF5394 /* libPods-CalabashSetup.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E37B41C49CB3386B5535BE9 /* Pods-CalabashSetup.calabash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalabashSetup.calabash.xcconfig"; path = "Pods/Target Support Files/Pods-CalabashSetup/Pods-CalabashSetup.calabash.xcconfig"; sourceTree = "<group>"; };
+		3A19190198E6704B3C939A30 /* Pods-CalabashSetup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalabashSetup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalabashSetup/Pods-CalabashSetup.debug.xcconfig"; sourceTree = "<group>"; };
 		3F22CE701A74F8510029EB97 /* CalabashSetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalabashSetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F22CE741A74F8510029EB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F22CE751A74F8510029EB97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,8 @@
 		3F22CE851A74F8510029EB97 /* CalabashSetupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalabashSetupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F22CE8A1A74F8510029EB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F22CE8B1A74F8510029EB97 /* CalabashSetupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalabashSetupTests.swift; sourceTree = "<group>"; };
+		55ECC2E96393CC7F26AF5394 /* libPods-CalabashSetup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalabashSetup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF236753A33708C724717D38 /* Pods-CalabashSetup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalabashSetup.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalabashSetup/Pods-CalabashSetup.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA75C77D8288C096661DF1D /* libPods-CalabashSetup.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +62,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EDD2CAC249D2B437C2BCE10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55ECC2E96393CC7F26AF5394 /* libPods-CalabashSetup.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3F22CE671A74F8510029EB97 = {
 			isa = PBXGroup;
 			children = (
 				3F22CE721A74F8510029EB97 /* CalabashSetup */,
 				3F22CE881A74F8510029EB97 /* CalabashSetupTests */,
 				3F22CE711A74F8510029EB97 /* Products */,
+				52BF925655F3FE09FAEE63AD /* Pods */,
+				1EDD2CAC249D2B437C2BCE10 /* Frameworks */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -115,6 +131,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		52BF925655F3FE09FAEE63AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A19190198E6704B3C939A30 /* Pods-CalabashSetup.debug.xcconfig */,
+				1E37B41C49CB3386B5535BE9 /* Pods-CalabashSetup.calabash.xcconfig */,
+				EF236753A33708C724717D38 /* Pods-CalabashSetup.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +148,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F22CE8F1A74F8510029EB97 /* Build configuration list for PBXNativeTarget "CalabashSetup" */;
 			buildPhases = (
+				085072EEBFFA9FEFDB195C76 /* Check Pods Manifest.lock */,
 				3F22CE6C1A74F8510029EB97 /* Sources */,
 				3F22CE6D1A74F8510029EB97 /* Frameworks */,
 				3F22CE6E1A74F8510029EB97 /* Resources */,
 				44AEB751305490DA82D0B0E5 /* Warn for TODO and FIXME comments */,
+				523BCAF354924AE2B9DD1ED0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,6 +240,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		085072EEBFFA9FEFDB195C76 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		44AEB751305490DA82D0B0E5 /* Warn for TODO and FIXME comments */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,6 +268,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
+		};
+		523BCAF354924AE2B9DD1ED0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalabashSetup/Pods-CalabashSetup-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -387,6 +445,7 @@
 		};
 		3F22CE901A74F8510029EB97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A19190198E6704B3C939A30 /* Pods-CalabashSetup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CalabashSetup/Info.plist;
@@ -397,6 +456,7 @@
 		};
 		3F22CE911A74F8510029EB97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF236753A33708C724717D38 /* Pods-CalabashSetup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
@@ -500,6 +560,7 @@
 		};
 		3F22CE961A74F8E30029EB97 /* Calabash */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E37B41C49CB3386B5535BE9 /* Pods-CalabashSetup.calabash.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CalabashSetup/Info.plist;
